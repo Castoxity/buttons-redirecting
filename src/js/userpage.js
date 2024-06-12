@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (clickedId && bgColor) {
         const parent = document.getElementById('UParent');
         parent.style.backgroundColor = bgColor;
-        // Add more style settings as needed
+        const userIdDiv = document.getElementById('UserId');
+        userIdDiv.textContent = clickedId;
     } else {
         console.error('Error: Missing clickedId or bgColor in localStorage');
     }
