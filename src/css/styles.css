@@ -1,0 +1,27 @@
+html,
+body{
+    height:100vh;
+    overflow:hidden;
+}
+
+button{
+    outline:none;
+    padding:25px;
+    padding-right:70px;
+    padding-left:70px;
+    background-color: #DADDE1;
+    border:none;
+    border-radius: 4px;
+}
+
+.Parent{
+    height:100%;
+}
+
+.Buttons{
+    display:flex;
+    gap:10%;
+    justify-content: center;
+    height:90%;
+    align-items: center;
+}

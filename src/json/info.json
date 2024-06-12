@@ -1,0 +1,20 @@
+[
+    {
+        "bg-color":"red",
+        "id":"a",
+        "url":"user.html"
+    },
+
+    {
+        "bg-color":"#DADDE1",
+        "id":"b",
+        "url":"user.html"
+
+    },
+
+    {
+        "bg-color":"#DADDE1",
+        "id":"c",
+        "url":"user.html"
+    }
+]
