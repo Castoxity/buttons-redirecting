@@ -42,6 +42,8 @@ gulp.task('serve', function() {
     gulp.watch('src/css/*.css', gulp.series('styles'));
     gulp.watch('src/js/*.js', gulp.series('scripts'));
     gulp.watch('src/json/*.json', gulp.series('json'));
+    gulp.watch('dist/json/info.json').on('change', browserSync.reload);
+    gulp.watch('src/json/info.json').on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 
